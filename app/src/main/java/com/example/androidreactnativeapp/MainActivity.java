@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showRNPropertyDetailsScreen(View view) {
-        Log.d("rnPropertyDetailsScreen", "Show React Native Property Details Screen");
+        Intent intent = new Intent(this, RNPropertyDetails.class);
+        startActivity(intent);
     }
 }
